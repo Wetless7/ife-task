@@ -1,0 +1,139 @@
+h1 {color:blue;}
+h2 {font-size: 14px;}
+body {margin: 0; padding: 0;}
+.p1 {font-size: 12px; color: #ff0; background-color:#FFA07A; }
+img {border: solid 2px red;}
+.p2 {font-weight: bold; text-align:center; }
+/*一、利用设置左右margin为auto，自动居中*/
+.box1 {background-color:#FFA07A;
+		 width:960px; height: 100px ;margin: 0px auto; }
+/*二、利用绝对定位和负边距来居中*/
+.box2in {
+		margin-top: 10px;
+		position: relative;
+		height: 100px;
+		} 
+.box2 {
+	background-color:green; 
+	position: absolute;
+	left: 50%;
+		}
+.move	{
+	width: 400px; 
+	height: 100px ;
+	border-radius: 4px;
+	margin-left: -200px;
+		}
+.clc {clear: both;}
+/*使用绝对定位实现*/
+.box345 {
+	margin-top:10px;
+	position: relative;
+}
+.box3 {
+	background-color: red;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+}
+.box4{
+	background-color: blue;
+	height: 100px;
+	margin-left: 100px;
+}
+.box5{
+	background-color:yellow;
+	height:100px;
+	width: 100%;
+}
+.box678{
+	margin-top: 10px;
+}
+.box6{
+	float: left;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+.box7{
+	background-color: blue;
+	height: 100px;
+	margin-left: 100px;
+}
+.box8{
+	background-color: yellow;
+	height: 100px;
+}
+/*使用浮动流定位实现*/
+.boxabc{
+	margin:20px;
+	background-color: red;
+	height: 400px;
+	overflow: hidden;
+}
+.boxleft{
+	background-color: blue;
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+.boxright{
+	background-color: green;
+	width: 200px;
+	height: 400px;
+	float: right;
+}
+.boxmiddle{
+	background-color: yellow;
+	height: 400px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.clc{
+	clear: both;
+}
+/*使用绝对定位实现*/
+.boxabc2{
+	margin:20px;
+	background-color: red;
+	height: 400px;
+	position: relative;
+}
+.boxleft2{
+	background-color: blue;
+	width: 200px;
+	height: 400px;
+	left: 0px;
+	position: absolute;
+}
+.boxright2{
+	background-color: green;
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	right: 0px;
+}
+.boxmiddle2{
+	background-color: yellow;
+	height: 400px;
+	position: static;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.phq{
+	margin:20px;
+	background-color: red;
+	height: 400px;
+	overflow: hidden;
+}
+.phq1{
+	background-color: blue;
+	width: 400px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+}
+
+
+
+
